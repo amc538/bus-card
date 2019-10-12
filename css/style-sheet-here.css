@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+   font-family: 'Henny Penny', cursive;
+   font-family: 'Imprima', sans-serif;
+   font-family: 'Space Mono', monospace;
+   font-family: 'Permanent Marker', cursive;
+*/
+
+body {
+	margin:0px;
+	text-align:center;
+	font-family: 'Space Mono', monospace;
+	background-color: #d3e3be;
+}
+
+h1 {
+	font-family: 'Henny Penny', cursive;
+	color: #4b514f;
+	margin-bottom: 0;
+	border:10px solid #3d4240;
+	padding:30px;
+	display: inline;
+	background-color: #ffffff;
+}
+
+h2 {
+	color: #845380;
+	font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+	font-family: 'Imprima', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #845380;
+}
+
+p {
+	font-family: 'Space Mono', monospace;
+	font-size: 16px;
+	color: #4b514f;
+}
+
+a.email{
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+	color: #4b514f;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.phone-number{
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+	color: #4b514f;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+
+ul {
+	list-style-type: none;
+	}
+
+
+button {
+  font-style: bold;
+  border: 3px;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+	
+#wrapper{
+	width: 75%;
+	margin-top: 150px;
+}
+
+h2.title{
+	margin-top: 40px;
+    padding: 30px;
+}
+
+.third-width { 
+	width: 30%;
+	margin: 0 250px;
+	border: 2px solid #000000;
+	float: left;
+}
+
+footer {
+	clear: both;
+}
+
+ul{
+	list-style: none;
+	display: inline-block;
+	width: 75%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+li{
+	display: inline-block;
+	padding: 3px;
+}
+
+.line-break{
+	border: 1px solid #834b85;;
+    margin: 30px auto;
+    width: 50%;
+}

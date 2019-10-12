@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+    font-family: 'Gochi Hand', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Love Ya Like A Sister', cursive;
+*/
+
+body{
+	border: 10px dotted black;	
+	margin:0px;
+	text-align:center;
+	font-family: 'Gochi Hand', cursive;
+	color: #000000;
+	font-size: 18px;
+	background-image: linear-gradient(45deg,#D6E4A8, #A294B6, #B05789, #B05789);
+}
+
+h1, h2, h3, h4{
+	
+}
+
+h1{
+	color:#1e305e;
+}
+
+h2{
+	color: #a50648;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+p {
+	font-family: Arial;
+	font-size: 16 px;
+}
+
+a.email{
+	color: #a50648;
+	text-decoration:none;
+}
+
+ul {
+	border: 25 px, dotted, black;
+	list-style-position: inside;
+	list-style-type: circle;
+	}
+
+h1.name{
+	font-family: 'Fredericka the Great', cursive;
+	margin-bottom:0px;
+	border:10px solid #251539;
+	padding:30px;
+	display:inline;
+	background-color: #ffffff;
+}
+button {
+  font-style: bold;
+  border: 3px;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+table, td, tr {
+   border: 1px solid black;
+   align-content: center;
+	}
+	
+div.100Days {
+	font-family: arial;
+	font-size: 16px;
+	color: dark blue;
+	border: 5px solid;
+	background-color:  #e6fff3;
+	
+}
+#wrapper{
+	margin-top:150px;
+}
+
+h2.title{
+	margin-top: 40px;
+    padding: 30px;
+}
+.phone-number{
+	color: #a50648;
+}
+/* -------------- Quote Styles ------------*/
+.inspirational-quote{
+	font-family: 'Gochi Hand', cursive;
+	font-size: 24px;
+	margin-top: 50px;
+	line-height: 30px;
+	color: #606;
+}
+
+
+.line-break{
+	border: 1px dotted #251539;
+    margin: 30px auto;
+    width: 50%;
+}
+
